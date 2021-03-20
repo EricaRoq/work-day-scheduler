@@ -1,3 +1,4 @@
+//Setting Variables
 var hourNine = document.querySelector("#hour-nine .saveBtn");
 var hourTen = document.querySelector("#hour-ten .saveBtn");
 var hourEleven = document.querySelector("#hour-eleven .saveBtn");
@@ -7,12 +8,15 @@ var hourTwo = document.querySelector("#hour-two .saveBtn");
 var hourThree = document.querySelector("#hour-three .saveBtn");
 var hourFour = document.querySelector("#hour-four .saveBtn");
 var hourFive = document.querySelector("#hour-five .saveBtn");
-var date = document.querySelector("#currentDay .lead");
 
-const today = moment();
-        console.log(today.format('LLL'));
+
+//Today's date and time
+var date = moment();
+$("#currentDay").text(date.format("LLL"));
+
+
       
-
+//Checking buttons work
 hourNine.addEventListener("click", function () {
     alert("I got clicked!");
 });
