@@ -7,7 +7,11 @@ var hourTwo = document.querySelector("#hour-two .saveBtn");
 var hourThree = document.querySelector("#hour-three .saveBtn");
 var hourFour = document.querySelector("#hour-four .saveBtn");
 var hourFive = document.querySelector("#hour-five .saveBtn");
+var date = document.querySelector("#currentDay .lead");
 
+const today = moment();
+        console.log(today.format('LLL'));
+      
 
 hourNine.addEventListener("click", function () {
     alert("I got clicked!");
