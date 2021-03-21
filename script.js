@@ -24,39 +24,39 @@ $("#currentDay").text(date.format("LLL"));
 //Checking buttons work
 
 hourNine.addEventListener("click", function () {
-    alert("I got clicked!");
+    alert("This button works!");
 });
 
 hourTen.addEventListener("click", function () {
-    alert("I got clicked!");
+    alert("This button works!");
 });
 
 hourEleven.addEventListener("click", function () {
-    alert("I got clicked!");
+    alert("This button works!");
 });
 
 hourTwelve.addEventListener("click", function () {
-    alert("I got clicked!");
+    alert("This button works!");
 });
 
 hourOne.addEventListener("click", function () {
-    alert("I got clicked!");
+    alert("This button works!");
 });
 
 hourTwo.addEventListener("click", function () {
-    alert("I got clicked!");
+    alert("This button works!");
 });
 
 hourThree.addEventListener("click", function () {
-    alert("I got clicked!");
+    alert("This button works!");
 });
 
 hourFour.addEventListener("click", function () {
-    alert("I got clicked!");
+    alert("This button works!");
 });
 
 hourFive.addEventListener("click", function () {
-    alert("I got clicked!");
+    alert("This button works!");
 });
 
 
